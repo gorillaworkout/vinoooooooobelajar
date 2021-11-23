@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="bmi.css">
+    <script src="./bmi.js"></script>
+</head>
+<body>
+    <div class="container-bmi">
+        <div class="bmi-left">
+            <div class="box_aja">
+                <p>tinggi</p>
+                <input type="number"  class="input_angka" id="id_tinggi">
+
+            </div>
+            <div class="box_aja">
+                <p>berat</p>
+                <input type="number" class="input_angka" id="id_berat">
+            </div>
+            <div class="total_bmi">
+                <p id="hasil">100 kamu gendot</p>
+            </div>
+
+            <div class="btn_bmi" onclick="hitung_bmi()">
+                HITUNG
+            </div>
+            <div class="btn_bmi"  onclick="simpan_bmi()">
+                SIMPAN
+            </div>
+        </div>
+        <div class="bmi-right">
+            <div id="inside_bmi_right">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
